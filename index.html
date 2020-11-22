@@ -1,0 +1,92 @@
+<html>
+   <head>
+       <meta charset="utf-8">
+  <link rel="stylesheet" type="text/css" href="style.css">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+       <link rel="stylesheet" href="style.css">
+    <title>My Photo Gallery</title>
+   </head>
+    <body>
+        <div class="container">
+           <h2>Photo Gallery</h2>
+        <p>Gird view</p>
+        <img id="image-1" src="https://images.unsplash.com/photo-1419242902214-272b3f66ee7a?ixlib=rb-1.2.1&ixid=MXwxMjA3fDB8MHxzZWFyY2h8Mnx8YXN0cm9ub215fGVufDB8MHwwfA%3D%3D&auto=format&fit=crop&w=500&q=60" alt=""/>
+        <img id="image-2" src="https://images.unsplash.com/photo-1529788295308-1eace6f67388?ixlib=rb-1.2.1&ixid=MXwxMjA3fDB8MHxzZWFyY2h8MTF8fHVuaXZlcnNlfGVufDB8MHwwfA%3D%3D&auto=format&fit=crop&w=500&q=60" alt=""/>
+        <img id="image-3" src="https://images.unsplash.com/photo-1522426266214-ec2d2abb9ce0?ixlib=rb-1.2.1&ixid=MXwxMjA3fDB8MHxzZWFyY2h8Mjd8fHVuaXZlcnNlfGVufDB8MHwwfA%3D%3D&auto=format&fit=crop&w=500&q=60" alt=""/>
+        <img id="image-4" src="https://images.unsplash.com/photo-1444080748397-f442aa95c3e5?ixlib=rb-1.2.1&ixid=MXwxMjA3fDB8MHxzZWFyY2h8NHx8bmlnaHQlMjBza3l8ZW58MHwwfDB8&auto=format&fit=crop&w=500&q=60" alt=""/>
+        <img id="image-5" src="https://images.unsplash.com/photo-1470813740244-df37b8c1edcb?ixlib=rb-1.2.1&ixid=MXwxMjA3fDB8MHxzZWFyY2h8MTl8fG5pZ2h0JTIwc2t5fGVufDB8MHwwfA%3D%3D&auto=format&fit=crop&w=500&q=60" alt=""/>
+        <img id="image-6" src="https://images.unsplash.com/photo-1517685704588-0935ac847be7?ixlib=rb-1.2.1&ixid=MXwxMjA3fDB8MHxzZWFyY2h8MjR8fG5pZ2h0JTIwc2t5fGVufDB8MHwwfA%3D%3D&auto=format&fit=crop&w=500&q=60" alt=""/>
+        <p>Slide veiw</p>
+            <div  id="myCarousel" class="carousel slide" data-ride="carousel"></div>
+         <!-- Wrapper for slider -->
+            <div class="carousel-inner">
+                <!-- Indicators -->
+  <ol class="carousel-indicators">
+    <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+    <li data-target="#myCarousel" data-slide-to="1"></li>
+    <li data-target="#myCarousel" data-slide-to="2"></li>
+    <li data-target="#myCarousel" data-slide-to="3"></li>
+    <li data-target="#myCarousel" data-slide-to="4"></li>
+      <li data-target="#myCarousel" data-slide-to="5"></li>
+  </ol>
+              <div class="item active">
+                  <center>
+                    <img src="https://images.unsplash.com/photo-1419242902214-272b3f66ee7a?ixlib=rb-1.2.1&ixid=MXwxMjA3fDB8MHxzZWFyY2h8Mnx8YXN0cm9ub215fGVufDB8MHwwfA%3D%3D&auto=format&fit=crop&w=500&q=60" class="img-responsive" alt=""/>
+                      <div class="carousel-content">
+                         <p>The Night Sky</p>
+                      </div>
+                  </center>
+                </div>
+                  <div class="item">
+                  <center>
+                      <img src="https://images.unsplash.com/photo-1529788295308-1eace6f67388?ixlib=rb-1.2.1&ixid=MXwxMjA3fDB8MHxzZWFyY2h8MTF8fHVuaXZlcnNlfGVufDB8MHwwfA%3D%3D&auto=format&fit=crop&w=500&q=60" alt=""/> 
+                      <div class="carousel-content">
+                        <p>Solar eclipse</p>
+                      </div>
+                  </center>
+                  </div>
+                <div class="item">
+                 <center>
+                     <img src="https://images.unsplash.com/photo-1522426266214-ec2d2abb9ce0?ixlib=rb-1.2.1&ixid=MXwxMjA3fDB8MHxzZWFyY2h8Mjd8fHVuaXZlcnNlfGVufDB8MHwwfA%3D%3D&auto=format&fit=crop&w=500&q=60" alt=""/>
+                     <div class="carousel-content">
+                       <p>Stars and Mountains</p>
+                     </div>
+                 </center>
+                </div>
+               <div class="item">
+                  <center>
+                     <img src="https://images.unsplash.com/photo-1444080748397-f442aa95c3e5?ixlib=rb-1.2.1&ixid=MXwxMjA3fDB8MHxzZWFyY2h8NHx8bmlnaHQlMjBza3l8ZW58MHwwfDB8&auto=format&fit=crop&w=500&q=60" alt=""/>
+                      <div class="carousel-content">
+                        <p>Lorem ipsum dolor sit amet</p>
+                      </div>
+                  </center>
+               </div>
+            <div class="item">
+                 <center>
+                   <img src="https://images.unsplash.com/photo-1470813740244-df37b8c1edcb?ixlib=rb-1.2.1&ixid=MXwxMjA3fDB8MHxzZWFyY2h8MTl8fG5pZ2h0JTIwc2t5fGVufDB8MHwwfA%3D%3D&auto=format&fit=crop&w=500&q=60" alt=""/>
+                     <div class="carousel-content">
+                       <p>S-shaped opening</p>
+                     </div>
+                </center>
+            </div>
+                <div class="item">
+                  <center>
+                      <img src="https://images.unsplash.com/photo-1517685704588-0935ac847be7?ixlib=rb-1.2.1&ixid=MXwxMjA3fDB8MHxzZWFyY2h8MjR8fG5pZ2h0JTIwc2t5fGVufDB8MHwwfA%3D%3D&auto=format&fit=crop&w=500&q=60" alt=""/>
+                      <div class="carousel-content">
+                        <p>Lorem ipsum dolor sit amet</p>
+                      </div>
+                  </center>
+                </div>
+                <!-- Left and right controls -->
+       <a class="left carousel-control" href="#myCarousel" data-slide="prev">
+      <span class="glyphicon glyphicon-chevron-left"></span>
+         </a>
+       <a class="right carousel-control" href="#myCarousel" data-slide="next">
+      <span class="glyphicon glyphicon-chevron-right"></span>
+    </a>
+            </div>
+        </div>
+    </body>
+</html>
